@@ -1,0 +1,76 @@
+.form {
+    margin: 0 auto;
+    width: 400px;
+    /* Определим контур формы */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.input-button {
+    text-align: center;
+}
+
+.textArea {
+    height: 200px;
+    width: 300px;
+}
+
+.container {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: azure;
+    display: table;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img{
+    width:50px;
+    height:50px;
+    object-fit: cover;
+}
+
+.icons {
+    margin-top: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.letter {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+/*.circle {*/
+/*    float: right;*/
+/*    !*width: 30px;*!*/
+/*    !*height: 30px;*!*/
+/*    !*background-color: slateblue;*!*/
+/*    border-radius: 100%;*/
+/*    border: solid indianred;*/
+/*}*/
+
+.img-circle {
+    float: right;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border: solid cornflowerblue;
+}
+
+.img-circle img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.round {
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+}
